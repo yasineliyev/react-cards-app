@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+.card {
+  width: 24rem;
+  min-height: 45rem;
+  position: relative;
+  background-color: #0f9a0f5a;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.35);
+}
+.cardBody {
+  width: 24rem;
+  min-height: 20rem;
+  text-align: center;
+  font-family: "Antic Slab", serif;
+  font-size: 1.3rem;
+  color: #c7ddd1;
+  letter-spacing: 0.1rem;
+}
+.cardBody img {
+  width: 24rem;
+  height: 23rem;
+  background-position: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+.about {
+  width: 100%;
+  padding: 0 0.5rem;
+  line-height: 2rem;
+  margin: 2rem 0;
+}
+.about h2 {
+  margin-bottom: 1rem;
+}
+button {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0.2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+  padding: 0.8rem 1.3rem;
+  background-color: #c7dbc4;
+  border: none;
+  font-family: "Antic Slab", serif;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in;
+}
+button:hover {
+  background-color: #074707;
+  color: white;
+}
